@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /checks/
+Sitemap: https://lorenzodelbosco-vg.github.io/DLconsulting/sitemap.xml

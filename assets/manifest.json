@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "slug": "01-the-old-web",
+    "source": "assets/clips/01-the-old-web.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.3,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/01-the-old-web/poster.webp",
+    "endPoster": "assets/frames/01-the-old-web/end.webp",
+    "sha256": "5b696526ef70054d064f9726c7de046ce67793051e6fc973a228b246ba330294",
+    "desktopBytes": 19087120,
+    "mobileBytes": 3525960,
+    "jpegReferenceBytes": 34319345,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 2,
+    "slug": "02-the-transformation",
+    "source": "assets/clips/02-the-transformation.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 175,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.3,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/02-the-transformation/poster.webp",
+    "endPoster": "assets/frames/02-the-transformation/end.webp",
+    "sha256": "35bd6831bf8ddc48105d67363c4a9510ec6fbd9dd2e18898d9ac3eb37c7cbce5",
+    "desktopBytes": 12926302,
+    "mobileBytes": 2462836,
+    "jpegReferenceBytes": 24178227,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 3,
+    "slug": "03-a-new-digital-era",
+    "source": "assets/clips/03-a-new-digital-era.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 167,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.2,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/03-a-new-digital-era/poster.webp",
+    "endPoster": "assets/frames/03-a-new-digital-era/end.webp",
+    "sha256": "7fe49c69147207eca8b0efba9f288da51e915fffa9c3e470dd9759fb594caf4a",
+    "desktopBytes": 7746318,
+    "mobileBytes": 1655270,
+    "jpegReferenceBytes": 17333466,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 4,
+    "slug": "04-what-we-create",
+    "source": "assets/clips/04-what-we-create.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 167,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 2.1,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/04-what-we-create/poster.webp",
+    "endPoster": "assets/frames/04-what-we-create/end.webp",
+    "sha256": "ecb5118ce81c7edcf62c20e6892bad2f43da2ebb724b6824bd95f05d8516bd37",
+    "desktopBytes": 7147832,
+    "mobileBytes": 1375502,
+    "jpegReferenceBytes": 15381141,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 5,
+    "slug": "05-from-idea-to-experience",
+    "source": "assets/clips/05-from-idea-to-experience.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.9,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/05-from-idea-to-experience/poster.webp",
+    "endPoster": "assets/frames/05-from-idea-to-experience/end.webp",
+    "sha256": "d8acabc8f093baf87f02f0b502cfb9c12d01903fb664fa408735d64237c20725",
+    "desktopBytes": 10469018,
+    "mobileBytes": 2024788,
+    "jpegReferenceBytes": 21163811,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 6,
+    "slug": "06-project-vault",
+    "source": "assets/clips/06-project-vault.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.8,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/06-project-vault/poster.webp",
+    "endPoster": "assets/frames/06-project-vault/end.webp",
+    "sha256": "8861a97a36ee72bc0d600ff6bf12de3a82b75fb6353ad890c319550abd358ee3",
+    "desktopBytes": 10937474,
+    "mobileBytes": 2371930,
+    "jpegReferenceBytes": 21546574,
+    "mobileFit": "contain"
+  },
+  {
+    "id": 7,
+    "slug": "07-choose-your-experience",
+    "source": "assets/clips/07-choose-your-experience.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.7,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/07-choose-your-experience/poster.webp",
+    "endPoster": "assets/frames/07-choose-your-experience/end.webp",
+    "sha256": "33422515d159c37bd1fb93174bf48da80dc61697fbc701584f07261c84dd4b21",
+    "desktopBytes": 3463846,
+    "mobileBytes": 701426,
+    "jpegReferenceBytes": 8087367,
+    "mobileFit": "contain"
+  },
+  {
+    "id": 8,
+    "slug": "08-the-result",
+    "source": "assets/clips/08-the-result.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.5,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/08-the-result/poster.webp",
+    "endPoster": "assets/frames/08-the-result/end.webp",
+    "sha256": "554ce2066905d7afdc6e5152c1e012de288e06b1e24d88224b377957fe5fda40",
+    "desktopBytes": 5103002,
+    "mobileBytes": 1124626,
+    "jpegReferenceBytes": 11740116,
+    "mobileFit": "cover"
+  },
+  {
+    "id": 9,
+    "slug": "09-your-brand-could-be-next",
+    "source": "assets/clips/09-your-brand-could-be-next.mp4",
+    "sourceFPS": 24,
+    "sourceFrames": 192,
+    "sourceDuration": 8,
+    "sourceStart": 0,
+    "sourceEnd": 182,
+    "desktopFrames": 150,
+    "mobileFrames": 96,
+    "desktopSize": [
+      1600,
+      900
+    ],
+    "mobileSize": [
+      800,
+      450
+    ],
+    "weight": 1.7,
+    "focal": [
+      0.5,
+      0.5
+    ],
+    "poster": "assets/frames/09-your-brand-could-be-next/poster.webp",
+    "endPoster": "assets/frames/09-your-brand-could-be-next/end.webp",
+    "sha256": "f69fd8fb537126ec18017546c590876207dcbf093d560bdd52d2b4e36ea0408d",
+    "desktopBytes": 2536032,
+    "mobileBytes": 546856,
+    "jpegReferenceBytes": 6566553,
+    "mobileFit": "cover"
+  }
+]

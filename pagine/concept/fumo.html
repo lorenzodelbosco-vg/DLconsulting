@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fumo · Brace contemporanea — Concept DL Consulting</title>
+<meta name="description" content="Concept dimostrativo di DL Consulting: sito per un ristorante di brace contemporanea a Torino.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website"><meta property="og:title" content="Fumo · Brace contemporanea — Concept DL Consulting"><meta property="og:description" content="Concept dimostrativo di DL Consulting: sito per un ristorante di brace contemporanea a Torino."><meta property="og:image" content="https://lorenzodelbosco-vg.github.io/DLconsulting/assets/images/concept/cover-fumo.webp"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="../../assets/images/favicon.svg">
+<style>
+@font-face{font-family:H;font-weight:100 900;font-display:swap;src:url(../../assets/fonts/hanken-grotesk-latin-wght-normal.woff2) format('woff2')}
+:root{--bg:#0e0c0b;--ink:#f3ece4;--mute:#a79c92;--ember:#ff6a2b;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box;margin:0}:where(img){height:auto;max-width:100%}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 H,'Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.dl-ribbon{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;display:flex;gap:14px;align-items:center;padding:9px 10px 9px 16px;border-radius:999px;background:rgba(10,9,16,.86);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(143,104,255,.45);font:600 12.5px H,sans-serif;color:#e9e5f1;white-space:nowrap;box-shadow:0 12px 40px -10px #000}
+.dl-ribbon b{color:#b9a3ff}.dl-ribbon a{padding:7px 12px;border-radius:999px;background:linear-gradient(135deg,#6d4cf5,#3d5fe0);color:#fff}
+header{position:absolute;inset:0 0 auto;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:28px clamp(20px,5vw,72px)}
+.logo{font-weight:800;letter-spacing:.32em;font-size:20px}.logo span{color:var(--ember)}
+nav{display:flex;gap:30px;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#d8cfc6}
+.pill{padding:12px 20px;border-radius:999px;background:var(--ember);color:#150a04;font-weight:700;letter-spacing:.08em}
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;padding:0 clamp(20px,5vw,72px) 110px;background:url(../../assets/images/concept/fumo-hero.webp) center/cover}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,12,11,.92) 30%,rgba(14,12,11,.25)),linear-gradient(0deg,var(--bg),transparent 40%)}
+.hero>div{position:relative;max-width:760px}
+.eb{font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--ember);font-weight:700}
+h1{font-size:clamp(56px,9vw,132px);line-height:.88;letter-spacing:-.04em;font-weight:800;text-transform:uppercase;margin:18px 0 26px}
+h1 em{font-style:normal;color:transparent;-webkit-text-stroke:1.5px var(--ink)}
+.lead{font-size:clamp(17px,1.6vw,21px);color:#cfc5bb;max-width:520px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.ghost{padding:12px 20px;border-radius:999px;border:1px solid var(--line);letter-spacing:.08em}
+section{padding:110px clamp(20px,5vw,72px)}
+.menu{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(30px,6vw,90px);align-items:start}
+.menu h2,.book h2{font-size:clamp(38px,5vw,68px);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;font-weight:800}
+.menu img{width:100%;border-radius:4px;margin-top:34px;filter:saturate(.9)}
+.tabs{display:flex;gap:8px;margin-bottom:30px;flex-wrap:wrap}.tabs button{font:600 13px H,sans-serif;letter-spacing:.14em;text-transform:uppercase;padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--mute);cursor:pointer}.tabs button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.dish{display:grid;grid-template-columns:1fr auto;gap:4px 20px;padding:22px 0;border-bottom:1px solid var(--line)}.dish b{font-size:21px;font-weight:600}.dish span{color:var(--ember);font-weight:700;font-size:19px}.dish p{grid-column:1/-1;color:var(--mute);font-size:15px}
+.book{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;border-top:1px solid var(--line)}
+form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}form label{display:grid;gap:6px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+form select,form input{font:16px H,sans-serif;padding:15px;border-radius:4px;border:1px solid var(--line);background:#171412;color:var(--ink)}
+form button{grid-column:1/-1;margin-top:6px;border:0;cursor:pointer;font:700 15px H,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+#ok{grid-column:1/-1;color:var(--ember);font-size:14px}
+footer{padding:40px clamp(20px,5vw,72px) 110px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+@media(max-width:800px){nav a:not(.pill){display:none}.menu,.book{grid-template-columns:1fr}form{grid-template-columns:1fr}.hero{padding-bottom:120px}.dl-ribbon{font-size:11px}.dl-ribbon span{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<style>.rev{padding:100px clamp(20px,5vw,72px);background:#171412;border-top:1px solid var(--line)}.rev h2{font-size:clamp(38px,5vw,68px);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;font-weight:800;margin-bottom:10px}.rev .note{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}.rev .g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}.rev figure{margin:0;padding:28px;border:1px solid var(--line);border-radius:16px;display:flex;flex-direction:column;gap:18px}.rev .stars{color:var(--ember);letter-spacing:.2em}.rev blockquote{margin:0;font-size:18px;line-height:1.5;color:var(--ink)}.rev figcaption{display:flex;justify-content:space-between;gap:10px;font-size:14px;margin-top:auto}.rev figcaption span{color:var(--mute)}@media(max-width:860px){.rev .g{grid-template-columns:1fr}}</style></head>
+<body>
+<aside class="dl-ribbon" aria-label="Informazioni sul concept"><span>Concept di <b>DL Consulting</b> · progetto dimostrativo</span><a href="../progetti.html">← Portfolio</a></aside>
+<header><a class="logo" href="#">FUM<span>O</span></a><nav><a href="#menu">Menu</a><a href="#menu">Cantina</a><a href="#prenota">Dove siamo</a><a class="pill" href="#prenota">Prenota</a></nav></header>
+<main>
+<section class="hero"><div><p class="eb">Brace contemporanea · Torino</p><h1>Fuoco<br><em>lento.</em></h1><p class="lead">Carni frollate, verdure dell'orto e legna di faggio. Una cucina che si ascolta prima di assaggiarla.</p><div class="ctas"><a class="pill" href="#prenota">Prenota un tavolo</a><a class="ghost" href="#menu">Scopri il menu</a></div></div></section>
+<section class="menu" id="menu"><div><p class="eb">Il menu</p><h2>Dalla brace<br>alla tavola.</h2><img width="1000" height="750" src="../../assets/images/concept/fumo-2.webp" alt="Carne sulla brace con fiamme" loading="lazy"></div>
+<div><div class="tabs" role="group" aria-label="Sezioni del menu"><button type="button" aria-pressed="true" data-t="brace">Brace</button><button type="button" aria-pressed="false" data-t="orto">Dall'orto</button><button type="button" aria-pressed="false" data-t="dolci">Dolci</button></div>
+<div data-p="brace"><div class="dish"><b>Costata di Fassona, 45 giorni</b><span>€ 9 / hg</span><p>Sale di Cervia, rosmarino, olio del Garda</p></div><div class="dish"><b>Pluma iberica</b><span>€ 26</span><p>Glassa al miele di castagno, cipolla bruciata</p></div><div class="dish"><b>Galletto al mattone</b><span>€ 22</span><p>Limone, aglio dolce, patate sotto la cenere</p></div><div class="dish"><b>Salsiccia di Bra</b><span>€ 14</span><p>Senape antica, pane di segale tostato</p></div></div>
+<div data-p="orto" hidden><div class="dish"><b>Cavolo nero alla fiamma</b><span>€ 11</span><p>Nocciole IGP, bagna cauda leggera</p></div><div class="dish"><b>Peperone di Carmagnola</b><span>€ 10</span><p>Acciughe, capperi, pane croccante</p></div></div>
+<div data-p="dolci" hidden><div class="dish"><b>Bonet affumicato</b><span>€ 8</span><p>Amaretti, cacao, caramello al sale</p></div><div class="dish"><b>Pesca alla brace</b><span>€ 8</span><p>Gelato al fiordilatte, timo</p></div></div></div></section>
+<section class="book" id="prenota"><div><p class="eb">Prenota</p><h2>Il tuo tavolo<br>in tre tocchi.</h2><p class="lead" style="margin-top:18px">Martedì–domenica, dalle 19:00. Via inventata 21, Torino.</p></div>
+<form id="f"><label>Giorno<select><option>Stasera</option><option>Domani</option><option>Sabato</option></select></label><label>Ora<select><option>19:30</option><option>20:30</option><option>21:30</option></select></label><label>Persone<select><option>2</option><option>4</option><option>6</option></select></label><button class="pill" type="submit">Conferma la prenotazione</button><p id="ok" role="status"></p></form></section>
+<section class="rev" aria-labelledby="rev-t"><p class="note">Recensioni di esempio · concept dimostrativo</p><h2 id="rev-t">Dicono di noi</h2><div class="g"><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“La costata migliore mangiata a Torino. Servizio attento, cantina da esplorare.”</blockquote><figcaption><b>Marco R.</b><span>Cliente</span></figcaption></figure><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“Atmosfera bellissima, prenotato dal telefono in un minuto. Torneremo per il bonet affumicato.”</blockquote><figcaption><b>Giulia & Paolo</b><span>Cliente</span></figcaption></figure><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“Carne cotta alla perfezione e personale che sa consigliarti il vino giusto.”</blockquote><figcaption><b>Andrea T.</b><span>Cliente</span></figcaption></figure></div></section></main>
+<footer><span>© Fumo — concept dimostrativo, attività inventata</span><span>Design e sviluppo: DL Consulting</span></footer>
+<script>
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll('[data-p]').forEach(p=>p.hidden=p.dataset.p!==b.dataset.t)}));
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();document.getElementById('ok').textContent='Demo: in un sito reale qui arriverebbe la conferma della prenotazione.'});
+</script>
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash){scrollTo(0,0);addEventListener("load",()=>scrollTo(0,0))}</script></body>
+</html>

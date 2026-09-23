@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forno Lume · Panetteria & caffè — Concept DL Consulting</title>
+<meta name="description" content="Concept dimostrativo di DL Consulting: sito per una panetteria e caffetteria di quartiere.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website"><meta property="og:title" content="Forno Lume · Panetteria & caffè — Concept DL Consulting"><meta property="og:description" content="Concept dimostrativo di DL Consulting: sito per una panetteria e caffetteria di quartiere."><meta property="og:image" content="https://lorenzodelbosco-vg.github.io/DLconsulting/assets/images/concept/cover-forno-lume.webp"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="../../assets/images/favicon.svg">
+<style>
+@font-face{font-family:H;font-weight:100 900;font-display:swap;src:url(../../assets/fonts/hanken-grotesk-latin-wght-normal.woff2) format('woff2')}
+:root{--bg:#f5efe4;--card:#fffaf1;--ink:#2a1d12;--mute:#6b5b4a;--crust:#8a4f22;--gold:#c9a15b;--line:rgba(42,29,18,.14)}
+*{box-sizing:border-box;margin:0}:where(img){height:auto;max-width:100%}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 H,'Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.dl-ribbon{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;display:flex;gap:14px;align-items:center;padding:9px 10px 9px 16px;border-radius:999px;background:rgba(10,9,16,.86);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(143,104,255,.45);font:600 12.5px H,sans-serif;color:#e9e5f1;white-space:nowrap;box-shadow:0 12px 40px -10px rgba(0,0,0,.5)}
+.dl-ribbon b{color:#b9a3ff}.dl-ribbon a{padding:7px 12px;border-radius:999px;background:linear-gradient(135deg,#6d4cf5,#3d5fe0);color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:26px clamp(20px,5vw,72px)}
+.logo{font:italic 30px Georgia,serif;letter-spacing:-.02em}.logo span{color:#8f6a2a}
+nav{display:flex;gap:28px;align-items:center;font-size:15px;color:var(--mute)}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:600}
+.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(30px,5vw,70px);align-items:center;padding:30px clamp(20px,5vw,72px) 90px}
+.open{display:inline-flex;gap:8px;align-items:center;font-size:14px;padding:7px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line)}.open i{width:8px;height:8px;border-radius:50%;background:#4caf6e}
+h1{font:400 clamp(54px,7.4vw,108px)/.95 Georgia,serif;letter-spacing:-.035em;margin:24px 0}
+h1 em{color:var(--crust)}
+.lead{font-size:clamp(17px,1.5vw,20px);color:var(--mute);max-width:480px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.hero figure{position:relative;margin:0}.hero figure img{width:100%;border-radius:220px 220px 18px 18px;display:block}
+.stamp{position:absolute;left:-26px;bottom:40px;width:130px;height:130px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center;text-align:center;font:italic 17px/1.15 Georgia,serif;transform:rotate(-12deg);box-shadow:0 14px 30px -12px rgba(42,29,18,.5)}
+section{padding:90px clamp(20px,5vw,72px)}
+h2{font:400 clamp(38px,4.6vw,64px)/1 Georgia,serif;letter-spacing:-.03em;margin-bottom:12px}
+.today{background:var(--card);border-block:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.item{padding:22px;border-radius:18px;background:var(--bg);border:1px solid var(--line)}
+.item .ph{height:120px;border-radius:12px;background:url(../../assets/images/concept/forno-2.webp) center/cover}.item .ph.b{background-image:url(../../assets/images/concept/forno-hero.webp);background-position:center 30%}.item .ph.c{background-position:20% 80%}.item .ph.d{background-position:80% 20%}.item b{display:block;font-size:19px;margin-top:10px}.item p{color:var(--mute);font-size:14.5px;margin-top:4px}
+.item .row{display:flex;justify-content:space-between;align-items:center;margin-top:16px;font-weight:700}
+.item .row span{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;background:#e8f3ea;color:#2f6b41}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.visit img{width:100%;border-radius:18px}
+.hours{margin-top:24px;border-top:1px solid var(--line)}.hours div{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line)}
+footer{padding:36px clamp(20px,5vw,72px) 100px;color:var(--mute);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;border-top:1px solid var(--line)}
+@media(max-width:900px){.hero,.visit{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}nav a:not(.btn){display:none}.stamp{left:10px}.dl-ribbon span{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<style>.rev{padding:100px clamp(20px,5vw,72px);background:var(--card);border-top:1px solid var(--line)}.rev h2{font:400 clamp(38px,4.6vw,64px)/1 Georgia,serif;letter-spacing:-.03em;margin-bottom:10px}.rev .note{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}.rev .g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}.rev figure{margin:0;padding:28px;border:1px solid var(--line);border-radius:16px;display:flex;flex-direction:column;gap:18px}.rev .stars{color:var(--crust);letter-spacing:.2em}.rev blockquote{margin:0;font-size:18px;line-height:1.5;color:var(--ink)}.rev figcaption{display:flex;justify-content:space-between;gap:10px;font-size:14px;margin-top:auto}.rev figcaption span{color:var(--mute)}@media(max-width:860px){.rev .g{grid-template-columns:1fr}}</style></head>
+<body>
+<aside class="dl-ribbon" aria-label="Informazioni sul concept"><span>Concept di <b>DL Consulting</b> · progetto dimostrativo</span><a href="../progetti.html">← Portfolio</a></aside>
+<header><a class="logo" href="#">Forno <span>Lume</span></a><nav><a href="#oggi">Oggi in forno</a><a href="#visita">Orari</a><a class="btn" href="#oggi">Ordina e ritira</a></nav></header>
+<main>
+<section class="hero"><div><span class="open"><i></i> Aperto ora · chiude alle 19:30</span><h1>Il pane<br>come una volta,<br><em>ogni mattina.</em></h1><p class="lead">Lievito madre, farine di mulini piemontesi e un caffè che ti aspetta al banco dalle 7:00.</p><div class="ctas"><a class="btn" href="#oggi">Prenota il ritiro</a><a class="btn alt" href="#visita">Vieni a trovarci</a></div></div>
+<figure><img width="1400" height="1750" src="../../assets/images/concept/forno-hero.webp" alt="Due pagnotte in un sacchetto di carta"><div class="stamp">Sfornato<br>alle 6:30</div></figure></section>
+<section class="today" id="oggi"><h2>Oggi in forno</h2><p class="lead">Aggiornato ogni mattina. Ordina entro le 12:00 e ritira senza fare la fila.</p>
+<div class="grid"><div class="item"><div class="ph b" aria-hidden="true"></div><b>Pagnotta di grani antichi</b><p>Lievito madre, 24 ore di lievitazione</p><div class="row">€ 4,80<span>Disponibile</span></div></div><div class="item"><div class="ph" aria-hidden="true"></div><b>Croissant al burro</b><p>Sfogliatura a mano, burro di centrifuga</p><div class="row">€ 1,60<span>Disponibile</span></div></div><div class="item"><div class="ph c" aria-hidden="true"></div><b>Pan di segale e noci</b><p>Solo il venerdì</p><div class="row">€ 5,20<span>Ultimi 4</span></div></div><div class="item"><div class="ph d" aria-hidden="true"></div><b>Crostata del giorno</b><p>Albicocche e frolla alla vaniglia</p><div class="row">€ 3,50<span>Disponibile</span></div></div></div></section>
+<section class="visit" id="visita"><img width="900" height="900" src="../../assets/images/concept/forno-2.webp" alt="Croissant e cappuccini su un tavolo" loading="lazy"><div><h2>Passa a trovarci</h2><p class="lead">Via inventata 8, Torino. Tavolini fuori quando c'è il sole.</p><div class="hours"><div><span>Lunedì</span><b>Chiuso</b></div><div><span>Martedì–venerdì</span><b>7:00–19:30</b></div><div><span>Sabato</span><b>7:00–13:00</b></div><div><span>Domenica</span><b>8:00–12:30</b></div></div></div></section>
+<section class="rev" aria-labelledby="rev-t"><p class="note">Recensioni di esempio · concept dimostrativo</p><h2 id="rev-t">Dicono di noi</h2><div class="g"><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“Il pane di grani antichi dura giorni ed è buonissimo. Ordino online e passo a ritirarlo.”</blockquote><figcaption><b>Elena M.</b><span>Cliente</span></figcaption></figure><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“Croissant come a Parigi e un cappuccino fatto bene. Il mio angolo del sabato mattina.”</blockquote><figcaption><b>Luca B.</b><span>Cliente</span></figcaption></figure><figure><div class="stars" aria-label="5 stelle su 5">★★★★★</div><blockquote>“Gentilissimi, e il sito con i prodotti del giorno è comodissimo.”</blockquote><figcaption><b>Sara V.</b><span>Cliente</span></figcaption></figure></div></section></main>
+<footer><span>© Forno Lume — concept dimostrativo, attività inventata</span><span>Design e sviluppo: DL Consulting</span></footer>
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash){scrollTo(0,0);addEventListener("load",()=>scrollTo(0,0))}</script></body>
+</html>

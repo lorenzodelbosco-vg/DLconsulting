@@ -1,0 +1,5 @@
+Vendored runtime dependencies:
+GSAP 3.12.5 — https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js
+ScrollTrigger 3.12.5 — https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js
+Lenis 1.1.20 — https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js
+Upstream copyright/license notices in the distributed files are preserved.
